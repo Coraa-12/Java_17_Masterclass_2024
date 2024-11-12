@@ -6,8 +6,8 @@ public class Main2 {
         int age = 22;
         boolean studentID = false;
 
-        // String isAllowedToDrink = haveIdentityCard && age == 22 ? "You are allowed to drink alcohol." : "You are not allowed to drink alcohol.";
-        // System.out.println(isAllowedToDrink);
+        String isAllowedToDrink = haveIdentityCard && age == 22 ? "You are allowed to drink alcohol." : "You are not allowed to drink alcohol.";
+        System.out.println(isAllowedToDrink);
 
         String haveIdentity = haveIdentityCard == true || studentID == true ? "You have an identity card." : "You don't have an identity card.";
         System.out.println(haveIdentity);

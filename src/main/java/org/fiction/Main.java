@@ -22,6 +22,7 @@ public class Main {
         }
 
         String makeOfCar = "Volkswagen";
-        boolean isDomestic = makeOfCar == "Folkswagen" ? true : false;
+        boolean isDomestic = makeOfCar == "Volkswagen" ? true : false;
+        System.out.println(isDomestic);
     }
 }
